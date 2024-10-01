@@ -6,6 +6,7 @@ array_size = int(input("Enter the size of the array: "))
 # Get the elements of the array
 entered_elements = (input("Enter the elements separated by space: ")).split()
 
+# Convert the elements to distinct value of integers
 array = []
 for numbers in entered_elements:
     array.append(int(numbers))
